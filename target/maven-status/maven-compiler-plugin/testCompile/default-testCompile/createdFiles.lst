@@ -1,0 +1,3 @@
+steps\PostmanEcho_POSTSteps.class
+runners\RunTest.class
+steps\PostmanEcho_GETSteps.class

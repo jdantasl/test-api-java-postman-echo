@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="3.499">
+    <testcase classname="Postman Echo GET" name="Efetuar chamada GET no Postman Echo" time="1.872">
+        <system-out>
+            <![CDATA[Dado a url GET do Postman Echo..............................................passed
+Quando efetuar a chamada por método GET.....................................passed
+Então a resposta deve conter o elemento "args" com conteúdo "bar1" e "bar2".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Postman Echo POST" name="Efetuar chamada POST com dados por Body no Postman Echo" time="0.733">
+        <system-out>
+            <![CDATA[Dado a url POST do Postman Echo.............................................passed
+Quando efetuar a chamada por método POST com dados via body.................passed
+Então a resposta deve conter o elemento data com conteúdo "bar1" e "bar2"...passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Postman Echo POST" name="Efetuar chamada POST com dados por formParam no Postman Echo" time="0.751">
+        <system-out>
+            <![CDATA[Dado a url POST do Postman Echo.............................................passed
+Quando efetuar a chamada por método POST com dados via formParam............passed
+Então a resposta deve conter o elemento form com conteúdo "bar1" e "bar2"...passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
